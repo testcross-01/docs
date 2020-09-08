@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>内部类</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.c1601def.css" as="style"><link rel="preload" href="/assets/js/app.74757f8c.js" as="script"><link rel="preload" href="/assets/js/2.c039daa3.js" as="script"><link rel="preload" href="/assets/js/6.3cea8f32.js" as="script"><link rel="prefetch" href="/assets/js/3.f5e6e12d.js"><link rel="prefetch" href="/assets/js/4.75fb5a11.js"><link rel="prefetch" href="/assets/js/5.1b82f179.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c1601def.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  About
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Google
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  About
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Google
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>内部类</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/about/#内部类访问机制" class="sidebar-link">内部类访问机制</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/about/#定义内部类的几种用法" class="sidebar-link">定义内部类的几种用法</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="内部类"><a href="#内部类" class="header-anchor">#</a> 内部类</h1> <p>内部类是定义在另一个类中的类。使用内部类的三种主要的原因是：</p> <ul><li>内部类可以对同一个包的其他类隐藏起来</li> <li>内部类方法可以访问该类定义所在的作用域中的数据，包括私有数据</li> <li>当想要定义一个回调函数且不想编写大量代码时，使用匿名内部类比较方便</li></ul> <h2 id="内部类访问机制"><a href="#内部类访问机制" class="header-anchor">#</a> 内部类访问机制</h2> <p>1.访问方式
+为了能够运行正常的运行程序，内部类的对象总有一个隐式的引用，它指向创建它的外部类对象。
+使用外围类引用
+<code>OuterClass.this</code>
+外围类的作用域之外引用内部类
+<code>OuterClass.InnerClass</code>
+2.实现机制
+内部类是一种编译器现象，与虚拟机无关。编译器会把内部类翻译成用$分割外部类名与内部类名的常规类文件。
+例如:</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">class</span> <span class="token class-name">TalkingClock2</span><span class="token comment">//时钟</span>
+<span class="token punctuation">{</span>
+       <span class="token keyword">private</span> <span class="token keyword">int</span> interval<span class="token punctuation">;</span>
+
+       <span class="token keyword">private</span> <span class="token keyword">boolean</span> beep<span class="token punctuation">;</span>
+
+       <span class="token keyword">public</span> <span class="token class-name">TalkingClock2</span><span class="token punctuation">(</span><span class="token keyword">int</span> interval<span class="token punctuation">,</span><span class="token keyword">boolean</span> beep<span class="token punctuation">)</span><span class="token punctuation">{</span>
+             <span class="token keyword">this</span><span class="token punctuation">.</span>beep<span class="token operator">=</span>beep<span class="token punctuation">;</span>
+             <span class="token keyword">this</span><span class="token punctuation">.</span>interval<span class="token operator">=</span>interval<span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+
+       <span class="token keyword">class</span> <span class="token class-name">TimePrinter</span> <span class="token keyword">implements</span> <span class="token class-name">ActionListener</span><span class="token punctuation">{</span><span class="token comment">//时间监听器</span>
+            <span class="token annotation punctuation">@Override</span>
+             <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">actionPerformed</span><span class="token punctuation">(</span><span class="token class-name">ActionEvent</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token class-name">Date</span> now<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;At the tone, the time is &quot;</span> <span class="token operator">+</span> now<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">if</span><span class="token punctuation">(</span>beep<span class="token punctuation">)</span><span class="token class-name">Toolkit</span><span class="token punctuation">.</span><span class="token function">getDefaultToolkit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">beep</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+             <span class="token punctuation">}</span>             
+       <span class="token punctuation">}</span>
+       
+       <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+             <span class="token class-name">Timer</span> timer<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Timer</span><span class="token punctuation">(</span>interval<span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">TimePrinter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+             timer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>javacore.inner.TalkingClock2$TimePrinter</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">class</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span>$<span class="token class-name">TimePrinter</span>
+<span class="token punctuation">{</span>
+   javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span>$<span class="token class-name">TimePrinter</span><span class="token punctuation">(</span>javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">actionPerformed</span><span class="token punctuation">(</span>java<span class="token punctuation">.</span>awt<span class="token punctuation">.</span>event<span class="token punctuation">.</span><span class="token class-name">ActionEvent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   
+   <span class="token keyword">final</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span> <span class="token keyword">this</span>$<span class="token number">0</span><span class="token punctuation">;</span><span class="token comment">//对应外围类</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>编译器为了引用外围类建立一个this$0
+外围类添加静态方法确保内部类可以访问到外围类中的任意成员</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">class</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span>
+<span class="token punctuation">{</span>
+   <span class="token keyword">public</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">,</span> <span class="token keyword">boolean</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+   <span class="token keyword">static</span> <span class="token keyword">boolean</span> access$<span class="token function">0</span><span class="token punctuation">(</span>javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock2</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//对应beep属性</span>
+
+   <span class="token keyword">private</span> <span class="token keyword">int</span> interval<span class="token punctuation">;</span>
+   
+   <span class="token keyword">private</span> <span class="token keyword">boolean</span> beep<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>access$0将返回外围类的beep属性的属性值
+<img src="en-resource://database/1256:0" alt="2f0ebf0cd74af5fb3d72185acd3dfb02.png"></p> <h2 id="定义内部类的几种用法"><a href="#定义内部类的几种用法" class="header-anchor">#</a> 定义内部类的几种用法</h2> <p>1.局部内部类
+在方法中定义内部类</p> <div class="language-java extra-class"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token keyword">int</span> interval<span class="token punctuation">,</span> <span class="token keyword">final</span> <span class="token keyword">boolean</span> beep<span class="token punctuation">)</span>
+  <span class="token punctuation">{</span>
+       <span class="token comment">//仅start方法可以访问TimePrinter类</span>
+     <span class="token keyword">class</span> <span class="token class-name">TimePrinter</span> <span class="token keyword">implements</span> <span class="token class-name">ActionListener</span>
+     <span class="token punctuation">{</span>
+        <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">actionPerformed</span><span class="token punctuation">(</span><span class="token class-name">ActionEvent</span> event<span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+           <span class="token class-name">Date</span> now <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;At the tone, the time is &quot;</span> <span class="token operator">+</span> now<span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token keyword">if</span> <span class="token punctuation">(</span>beep<span class="token punctuation">)</span> <span class="token class-name">Toolkit</span><span class="token punctuation">.</span><span class="token function">getDefaultToolkit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">beep</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span>
+     <span class="token class-name">ActionListener</span> listener <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TimePrinter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+     <span class="token class-name">Timer</span> t <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Timer</span><span class="token punctuation">(</span>interval<span class="token punctuation">,</span> listener<span class="token punctuation">)</span><span class="token punctuation">;</span>
+     t<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>局部内部类可以访问方法的局部变量，但此变量必须设置为final类型</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">class</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock</span>$<span class="token number">1</span>TimePrinter
+<span class="token punctuation">{</span>
+   javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock</span>$<span class="token function">1TimePrinter</span><span class="token punctuation">(</span>javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock</span><span class="token punctuation">,</span> 
+<span class="token keyword">boolean</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">actionPerformed</span><span class="token punctuation">(</span>java<span class="token punctuation">.</span>awt<span class="token punctuation">.</span>event<span class="token punctuation">.</span><span class="token class-name">ActionEvent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token keyword">final</span> javacore<span class="token punctuation">.</span>inner<span class="token punctuation">.</span><span class="token class-name">TalkingClock</span> <span class="token keyword">this</span>$<span class="token number">0</span><span class="token punctuation">;</span>
+   <span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token keyword">boolean</span> val$beep<span class="token punctuation">;</span><span class="token comment">//对应局部变量beep</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>2.匿名内部类
+实现接口或继承类的同时建立对象</p> <div class="language-java extra-class"><pre class="language-java"><code> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token keyword">int</span> interval<span class="token punctuation">,</span> <span class="token keyword">final</span> <span class="token keyword">boolean</span> beep<span class="token punctuation">)</span>
+  <span class="token punctuation">{</span>
+     <span class="token class-name">ActionListener</span> listener <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ActionListener</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+           <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">actionPerformed</span><span class="token punctuation">(</span><span class="token class-name">ActionEvent</span> event<span class="token punctuation">)</span>
+           <span class="token punctuation">{</span>
+              <span class="token class-name">Date</span> now <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;At the tone, the time is &quot;</span> <span class="token operator">+</span> now<span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token keyword">if</span> <span class="token punctuation">(</span>beep<span class="token punctuation">)</span> <span class="token class-name">Toolkit</span><span class="token punctuation">.</span><span class="token function">getDefaultToolkit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">beep</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+     <span class="token class-name">Timer</span> t <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Timer</span><span class="token punctuation">(</span>interval<span class="token punctuation">,</span> listener<span class="token punctuation">)</span><span class="token punctuation">;</span>
+     t<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>3.静态内部类
+将类隐藏于外围类，但不调用外围类的成员
+用static修饰内部类</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.74757f8c.js" defer></script><script src="/assets/js/2.c039daa3.js" defer></script><script src="/assets/js/6.3cea8f32.js" defer></script>
+  </body>
+</html>
